@@ -1,0 +1,157 @@
+/* === MAIN CONTAINER === */
+.resume-container {
+  min-height: 100vh;
+  background: #0a0e27;
+  padding: 80px 20px;
+  color: #e2e8f0;
+  font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === TITLE === */
+.resume-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* === GRID INPUT SECTION === */
+.grid {
+  width: 60%;
+  max-width: 900px;
+  display: grid;
+  gap: 14px;
+}
+
+.grid input {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.grid input:hover,
+.grid input:focus {
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+}
+
+/* === SECTION BLOCK === */
+.section {
+  width: 60%;
+  max-width: 900px;
+  margin-top: 35px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #a5b4fc;
+  font-weight: 600;
+}
+
+/* === INPUT + ADD BUTTON ROW === */
+.input-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  outline: none;
+}
+
+.input-row input:hover,
+.input-row input:focus {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* === ADD SMALL BUTTON === */
+.input-row button {
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.input-row button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* === DROPDOWN === */
+.template-select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #0b0b0c;
+  font-weight: 600;
+  outline: none;
+}
+
+.template-select:hover,
+.template-select:focus {
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+}
+
+/* === GENERATE BUTTON === */
+.generate-btn {
+  margin-top: 45px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+  transition: 0.3s ease;
+}
+
+.generate-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.04);
+}
+.section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.section li {
+  background: #1e293b;
+  padding: 6px 14px;
+  border-radius: 12px;
+  color: #94a3b8;
+  font-size: 14px;
+  border: 1px solid #334155;
+}
